@@ -1,0 +1,273 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Times New Roman', Times, serif;
+    
+
+
+}
+.container{
+    width:100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(./SL5.jpeg);
+    background-position:center;
+    background-size: cover;
+    padding-left:8%;
+    padding-right:8%;
+    box-sizing: border-box;
+
+}
+.navbar{
+    height:12%;
+    display:flex;
+    align-items:center;
+
+}
+.menu-icon{
+   width:30px;
+   cursor:pointer;
+
+}
+
+
+
+nav{
+    flex:1;
+    text-align:right;
+
+
+}
+nav ul li{
+    list-style:none;
+    display:inline-block;
+    margin-left:60px;
+}
+nav ul li a{
+     text-decoration:none;
+     color:black;
+     font-size:13px
+}
+.row{
+    display:flex;
+    height:88%;
+    align-items:center;
+
+}
+.col{
+    flex-basis:50%;
+
+
+}
+
+<!--content-->
+h1{
+color:#fff;
+font-size:20px;
+line-height:25px;
+}
+p{
+    color:#000;
+    font-size:14px;
+    line-height:15px;
+}
+button{
+    width:180px;
+    color:white;
+    font-size:12px;
+    padding:12px 0;
+    background:black;
+    border:0;
+    border-radius:20px;
+    outline:none;
+    margin-top:30px;
+
+}
+#intro {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:15px;
+    background-color:white;
+    color:black;
+    text-align: center;
+    font-size:20px;
+
+}
+#intro ul{
+margin-left:50%;
+}
+.home{
+    font-weight:23px;
+    font-size: 30px;
+}
+.h-img{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.helln{
+    font-size:30px;
+}
+
+
+/*footer*/
+footer{
+    flex-basis: 12%;
+    text-align: center;
+}
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+.footer p{
+    color: #8a8a8a;
+}
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer-col-1, .footer-col-2,.footer-col-3,.footer-col-4{
+    min-width: 250px;
+}
+.footer-col-1{
+    flex-basis: 30%;
+}
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+.footer-col-2 img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+.footer-col-3, .footer-col-4
+ul{
+    list-style-type: none;
+}
+.app-logo{
+    margin-top: 20px;
+}
+.app-logo img{
+    width: 140px;
+}
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+.copyright{
+    text-align: center;
+}
+.background{
+    background:black;
+}
+.background-2{
+    background: radial-gradient(#fff,#ffd6d6);
+    font-family: 'Poppins', sans-serif;
+}
+.hare-1{
+    width: 80%;
+    margin: 50px auto;
+    font-size: 14px;
+}
+.contact-box{
+    background: #fff;
+    display: flex;
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px ;
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px ;
+    background: #1c00b5;
+    color: #fff;
+}
+h1{
+    margin-bottom: 10px;
+}
+.hare-1 p{
+    margin-bottom: 40px;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input-row .input-group{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+    color: #1c00b5;
+}
+button{
+    background: black;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(28,0,181,3);
+}
+.contact-left h3{
+    color: #1c00b5;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.contact-right h3{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+tr td:first-child{
+    padding-right: 20px;
+}
+tr td{
+    padding-top: 20px;
+    
+}
+
+
+@media only screen and (min-width:300px) and (max-width:1000px){
+    .navbar{
+        display: none;
+    }
+    .in-div{
+        margin: 30px;
+    }
+    .h-img{
+        display: block;
+    }
+    .in-div p{
+        text-align: justify;
+        margin: 30px;
+    }
+    .in-div ol li{
+        text-align: justify;
+    }
+    .footer{
+        display: block;
+        width:100%;
+    }
+
+}

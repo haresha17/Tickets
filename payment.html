@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment Details</title>
+  <link rel="stylesheet" href="payment.css">
+</head>
+
+<body>
+  <h1 class="heading">Payment Page</h1> 
+<div class="container">
+       
+  <div class="payment-form">
+    <h2>Payment details</h2>
+    <form id="paymentForm">
+      <div class="form-group">
+        <label for="cardNumber">Card Number</label>
+        <input type="text" id="cardNumber" name="cardNumber" required>
+      </div>
+      <div class="form-group">
+        <label for="expiryDate">Expiry Date</label>
+        <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YY" required>
+      </div>
+      <div class="form-group">
+        <label for="cvc">CVC / CVV</label>
+        <input type="text" id="cvc" name="cvc" required>
+      </div>
+      <div class="form-group">
+        <label for="nameOnCard">Name on Card</label>
+        <input type="text" id="nameOnCard" name="nameOnCard" required>
+      </div>     
+    </form>  
+  </div>
+      <div class="rk">
+        <table id="tab1"></table>
+      </div>
+</div>
+
+  
+
+  <div class="summary-t">
+    <div class="buttons">
+      <button class="btn_done">
+        <span class="btnText">Back</span>
+        <i class="uil uil-navigator"></i>
+      </button>
+      <button class="btn_continue" id="con_btn">
+        <span class="btnText">Purchase</span>
+        <i class="uil uil-navigator"></i>
+      </button>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer">
+        <div class="hare">
+            <div class="row">
+               
+                  
+            <p class="copyright">copyright-2023 - Hare</p>
+        </div>
+     </div>
+</footer>
+
+
+  <script src="./payment.js"></script>
+</body>
+</html>

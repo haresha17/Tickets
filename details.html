@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details page</title>
+    <link rel="stylesheet" href="./details.css">
+
+</head>
+
+    
+
+<body>
+  <h1 class="heading">Details Page</h1>
+  <div class="container">
+    <div class="form-container">
+        <h2>Enter your details</h2>
+        <form id="userDetailsForm" >
+          <div class="form-group">
+            <label for="fullName">Full Name<span>*</span></label>
+            <input type="text" id="fullName" name="fullName" >
+          </div>
+          <div class="form-group">
+            <label for="mobileNumber">Mobile Number<span>*</span></label>
+            <input type="tel" id="mobileNumber" name="mobileNumber" >
+            <br>
+            <br>
+            
+                <!-- Your other form elements go here -->
+                <div class="form-group">
+                  <label for="countryCode">Select Country</label>
+                  <select id="countryCode" name="countryCode" >
+                    <option value="" disabled selected>Select Country</option>
+                  </select>
+                <!-- Add more country options as needed -->
+              </select>
+              
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label for="email">Email<span>*</span></label>
+            <input type="email" id="email" name="email" >
+          </div>
+          <div class="form-group">
+            <label for="confirmEmail">Confirm Email<span>*</span></label>
+            <input type="email" id="confirmEmail" name="confirmEmail" >
+          </div>
+          <div class="form-group">
+            <label for="gender">Gender</label>
+            <select id="gender" name="gender">
+              <option value="">Select Gender</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+          </div>
+        </form>
+      </div>
+      <div class="rk">
+         <table id="tab1"></table>
+      </div>
+  </div>
+     
+      <div class="summary-t">
+        <div class="buttons">
+          <button class="btn_done">
+            <span class="btnText">Back</span>
+            <i class="uil uil-navigator"></i>
+          </button>
+          <button class="btn_continue" id="con_btn">
+            <span class="btnText">Continue to purchase</span>
+            <i class="uil uil-navigator"></i>
+          </button>
+        </div>
+      </div>
+      
+      
+      
+
+      <footer>
+        <div class="footer">
+            <div class="hare">
+                <div class="row">
+                   
+                      
+                <p class="copyright">copyright-2023 - Hare</p>
+            </div>
+         </div>
+    </footer>
+    
+
+<script src="./details.js"></script>
+</body>
+</html>
+
